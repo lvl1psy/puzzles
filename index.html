@@ -14,6 +14,7 @@
       border-collapse: collapse;
       width: 100%;
       max-width: 1000px;
+      table-layout: fixed;
     }
     caption {
       text-align: left;
@@ -31,6 +32,23 @@
     tbody tr:nth-child(even) {
       background: #f9f9f9;
     }
+    /* column widths: puzzle + description a bit wider */
+    th:nth-child(1), td:nth-child(1) {
+      width: 30%;
+    }
+    th:nth-child(2), td:nth-child(2) {
+      width: 15%;
+    }
+    th:nth-child(3), td:nth-child(3) {
+      width: 40%;
+    }
+    th:nth-child(4), td:nth-child(4) {
+      width: 15%;
+    }
+    /* allow description to wrap nicely */
+    td:nth-child(3) {
+      word-wrap: break-word;
+    }
   </style>
 </head>
 <body>
@@ -38,7 +56,6 @@
     <h1>Puzzles I've Written</h1>
     <p>I've written about 40 puzzles since being introduced to puzzlehunts ~10 years ago. Here are links to most of them, along with mildly spoilery descriptions.</p>
     <table>
-      <caption>Click a puzzle title to view it.</caption>
       <thead>
         <tr>
           <th scope="col">Puzzle</th>
@@ -58,7 +75,7 @@
           <td><a href="https://lvl1psy.github.io/puzzles/Puzzle%20Hunting%20and%20the%20Ostrich.pdf">Puzzle Hunting and the Ostrich</a></td>
           <td></td>
           <td>self-referential logic shenanigans</td>
-          <td>Secret Setter, Private Discord, 2025</td>
+          <td>Private Event, 2025</td>
         </tr>
         <tr>
           <td><a href="https://penchantpuzzlehunt.com/puzzle/penchant-word-search">Penchant Word Search Generator</a></td>
@@ -94,7 +111,7 @@
           <td><a href="https://lvl1psy.github.io/puzzles/For%20Tane.pdf">For Tane</a></td>
           <td></td>
           <td>giardino delle righe</td>
-          <td>Secret Setter, Private Discord, 2024</td>
+          <td>Private Event, 2024</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Know%20Your%20Surroundings.pdf">Know Your Surroundings</a></td>
@@ -226,43 +243,43 @@
           <td><a href="https://lvl1psy.github.io/puzzles/Arts%20&amp;%20Crafts.pdf">Arts &amp; Crafts</a></td>
           <td></td>
           <td>nonogram jigsaw thing</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Gambling%20Addiction.pdf">Gambling Addiction</a></td>
           <td></td>
           <td>puzzle about a Dutch book</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Inadequate%20Clues.pdf">Inadequate Clues</a></td>
           <td></td>
           <td>e.g. &quot;city that isn&#x27;t a former home to an NHL team&quot;</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Showoff.pdf">Showoff</a></td>
           <td></td>
           <td>puzzle about a certain someone</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Two-Face.pdf">Two-Face</a></td>
           <td></td>
           <td>anticlimactic slither-akari</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/You&#x27;re%20Doing%20It%20Wrong.pdf">You&#x27;re Doing It Wrong</a></td>
           <td></td>
           <td>a simple do-it-again</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://lvl1psy.github.io/puzzles/Behind%20the%20Curtain.pdf">Behind the Curtain</a></td>
           <td></td>
           <td>this meta has content, but only a little</td>
-          <td>Internal Hunt for Brown Puzzle Club, ~2015</td>
+          <td>Hunt for Brown Puzzle Club</td>
         </tr>
         <tr>
           <td><a href="https://docs.google.com/spreadsheets/d/1RD-kBhdaIeUIpP_gTws15uiSefYbGdHB_YSJq6-NqVo/edit?usp=sharing">google sheets: maven exam</a></td>
